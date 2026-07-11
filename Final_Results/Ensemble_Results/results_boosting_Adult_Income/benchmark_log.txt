@@ -1,0 +1,6 @@
+2026-02-08 03:12:49,257 - Loading dataset: Adult Income
+2026-02-08 03:12:49,509 -   Sampled to 20000 samples
+2026-02-08 03:12:49,510 -   Final: 20000 samples, 14 features, 2 classes
+2026-02-08 18:40:58,583 - Loading dataset: Adult Income
+2026-02-08 18:40:58,803 -   Sampled to 20000 samples
+2026-02-08 18:40:58,805 -   Final: 20000 samples, 14 features, 2 classes

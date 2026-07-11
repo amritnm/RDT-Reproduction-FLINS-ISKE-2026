@@ -1,0 +1,101 @@
+{
+  "depth": 4,
+  "sklearn_acc": 0.995,
+  "rdt_acc": 0.995,
+  "sklearn_mean_cost": 34.1975,
+  "sklearn_median_cost": 50.0,
+  "rdt_mean_cost": 7.0,
+  "rdt_median_cost": 7.0,
+  "cost_reduction_pct": 79.53066744645076,
+  "sklearn_depth_stages": {
+    "0": [
+      0
+    ],
+    "1": [
+      1,
+      3
+    ],
+    "2": [
+      1,
+      2,
+      3
+    ],
+    "3": [
+      0,
+      3
+    ]
+  },
+  "sklearn_depth_features": {
+    "0": [
+      {
+        "feature_idx": 1,
+        "feature_name": "AccountTenure",
+        "stage": 0
+      }
+    ],
+    "1": [
+      {
+        "feature_idx": 5,
+        "feature_name": "NameMatch",
+        "stage": 1
+      },
+      {
+        "feature_idx": 9,
+        "feature_name": "BiometricScore",
+        "stage": 3
+      }
+    ],
+    "2": [
+      {
+        "feature_idx": 7,
+        "feature_name": "AddrTenure",
+        "stage": 2
+      },
+      {
+        "feature_idx": 3,
+        "feature_name": "ID_Score",
+        "stage": 1
+      },
+      {
+        "feature_idx": 11,
+        "feature_name": "PEP_Score",
+        "stage": 3
+      },
+      {
+        "feature_idx": 11,
+        "feature_name": "PEP_Score",
+        "stage": 3
+      }
+    ],
+    "3": [
+      {
+        "feature_idx": 1,
+        "feature_name": "AccountTenure",
+        "stage": 0
+      },
+      {
+        "feature_idx": 9,
+        "feature_name": "BiometricScore",
+        "stage": 3
+      }
+    ]
+  },
+  "rdt_depth_features": {
+    "0": 1,
+    "1": 5,
+    "2": 7,
+    "3": 1
+  },
+  "sklearn_stage_reach_pct": {
+    "0": 136.75,
+    "1": 36.75,
+    "2": 36.75,
+    "3": 126.49999999999999
+  },
+  "rdt_stage_reach_pct": {
+    "0": 156.0,
+    "1": 100.0,
+    "2": 100.0,
+    "3": 0.0
+  }
+}

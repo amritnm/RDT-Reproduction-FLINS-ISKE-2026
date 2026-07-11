@@ -1,0 +1,13 @@
+{
+  "dataset": "Musk v2",
+  "encoding": "target",
+  "sample_size": null,
+  "n_folds": 5,
+  "depths": [
+    3,
+    4,
+    5
+  ],
+  "n_estimators": 100,
+  "timestamp": "2026-04-15T13:26:38.424206"
+}

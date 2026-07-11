@@ -1,0 +1,37 @@
+{
+  "ODT": {
+    "max_depth": 9,
+    "task": "classification",
+    "criterion": "gini",
+    "min_samples_split": 2,
+    "min_samples_leaf": 5
+  },
+  "RDT": {
+    "max_depth": 9,
+    "task": "classification",
+    "criterion": "gini",
+    "min_samples_split": 2,
+    "min_samples_leaf": 5
+  },
+  "RDT-TwoPass": {
+    "max_depth": 9,
+    "task": "classification",
+    "criterion": "gini",
+    "min_samples_split": 2,
+    "min_samples_leaf": 1
+  },
+  "sklearn-DT": {
+    "ccp_alpha": 0.0,
+    "max_depth": 9,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2
+  },
+  "ConTree": {
+    "max_depth": 9,
+    "max_gap": 0,
+    "max_gap_decay": 0.0,
+    "time_limit": 300,
+    "use_upper_bound": true,
+    "sort_gini": true
+  }
+}

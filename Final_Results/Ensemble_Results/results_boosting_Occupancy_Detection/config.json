@@ -1,0 +1,13 @@
+{
+  "dataset": "Occupancy Detection",
+  "encoding": "target",
+  "sample_size": null,
+  "n_folds": 5,
+  "depths": [
+    3,
+    4,
+    5
+  ],
+  "n_estimators": 100,
+  "timestamp": "2026-04-16T01:07:59.449351"
+}

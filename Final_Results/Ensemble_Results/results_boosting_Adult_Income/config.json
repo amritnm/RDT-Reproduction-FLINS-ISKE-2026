@@ -1,0 +1,13 @@
+{
+  "dataset": "Adult Income",
+  "encoding": "target",
+  "sample_size": 20000,
+  "n_folds": 5,
+  "depths": [
+    3,
+    4,
+    5
+  ],
+  "n_estimators": 100,
+  "timestamp": "2026-02-08T23:50:05.519552"
+}

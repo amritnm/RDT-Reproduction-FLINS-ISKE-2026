@@ -1,0 +1,25 @@
+# Core dependencies used across all reproduction scripts
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+psutil
+
+# Gradient boosting baselines (Table 2 / mechanism analysis)
+xgboost
+catboost
+
+# Optional: OSDT baseline (revised_benchmark/osdt_wrapper.py)
+# gmpy2 can be difficult to build on Windows; OSDT is skipped gracefully if missing.
+gmpy2
+
+# Optional: ConTree baseline (imported as `from pycontree import ConTree`)
+# Precompiled Windows binaries (cp311 / cp313) are vendored under contree_lib/python/pycontree/.
+# If your Python version/platform doesn't match, either build from the upstream contree source
+# (https://github.com/AlgTUDelft/pyContree) or omit ConTree - run_benchmark.py falls back gracefully.
+
+# Dataset download scripts
+requests
+unlzw3
